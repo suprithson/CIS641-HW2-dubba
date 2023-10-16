@@ -1,0 +1,126 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('bruna-branco-7r1HxvVC7AY-unsplash.jpg'); /* Replace with your desired background image for the entire page */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #95eaf9f7; /* Transparent background */
+  color: rgb(23, 27, 28);
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+  border-radius: 50%;
+  max-width: 150px;
+  margin-bottom: 10px;
+}
+
+header h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+section {
+  width: 30%; /* Adjust width for equal spacing */
+  margin: 20px 0;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  color: rgb(0, 0, 0);
+  background-size: cover;
+  padding: 20px;
+}
+
+section h2 {
+  color: #060606;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li img {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+ul li {
+  padding: 5px 0;
+}
+
+#about {
+  background-image: url('dom-hill-nimElTcTNyY-unsplash.jpg'); /* Replace with the background image for "About Me" section */
+  /* opacity: 0.2; */
+  background-size: cover;
+  opacity: 0.9;
+}
+
+#shopping-app {
+  background-image: url('tamanna-rumee-FtJEat_S7Q4-unsplash.jpg'); /* Replace with the background image for "Shopping Application" section */
+}
+
+#skills {
+  background-image: url('mae-mu-7Cui0fxsMzQ-unsplash.jpg'); /* Replace with the background image for "Skills" section */
+}
+#why-app {
+  background-image: url('rae-tian-RVF0ngUujks-unsplash.jpg'); /* Replace with the background image for "Shopping Application" section */
+}
+#contact {
+  background-image: url('laura-chouette-pvICOT96zY8-unsplash.jpg'); /* Replace with the background image for "Contact Info" section */
+}
+#contact .container {
+  text-align: left;
+}
+
+#contact .form-group {
+  margin-bottom: 15px;
+}
+
+#contact .form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact .form-group input,
+#contact .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#contact button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0); /* Transparent background */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}

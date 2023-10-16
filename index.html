@@ -1,24 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Student Form</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Your Name - Profile</title>
 </head>
 <body>
+  <header>
+    <div class="container">
+      <!--<img src="art.jpeg" alt="Profile Image">-->
+      <h1>Dubba Suprith Son</h1>
+      <p>641 project</p>
+    </div>
+  </header>
 
-<h1>THIS IS THE FORM TO REGISTER FOR 641 PROJECT</h1>
+  <div class="boxes">
+    <section id="about" class="bg1">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>"I am Suprith Son Dubba, currently pursuing my Master's in Computer Science at Grand Valley State University. With 4 years of IT experience, I specialize in analytics and programming, specifically in Python. Proficient in tools like ZoHo and Power BI, I also possess a solid understanding of web technologies including HTML, CSS, and JavaScript."</p>
+      </div>
+    </section>
 
-<form action="greeting.html" method="get">
-  <label for="name">Name:</label><br>
-  <input type="text" id="name" name="name"><br>
-  <label for="email">Email:</label><br>
-  <input type="email" id="email" name="email"><br><br>
-  <label for="projectName">Project Name:</label><br>
-  <select id="projectName" name="projectName">
-    <option value="lstm">LSTM</option>
-    <option value="notepad">Notepad Project</option>
-  </select><br><br>
-  <input type="submit" value="Submit">
-</form>
+    <section id="shopping-app" class="bg2">
+      <div class="container">
+        <h2>Shopping Application</h2>
+        <p>E-commerce application has redesigned how it is done and introduces an easy way of purchasing which targets users. The company’s product catalog will be large, allowing the clients to easily see and select products. It has an intuitive “Add to Cart” option which allows effortless adding and removing of items facilitating a hassle-free shopping process. Basically, this application ensures an enriched and effective buying process, featuring a combination of features that make shopping an enchantment for the buyer.</p>
+      </div>
+    </section>
 
+    <section id="skills" class="bg3">
+      <div class="container">
+        <h2>Skills</h2>
+        <ul>
+          <li> Analytics</li>
+          <li>Python</li>
+          <li>Power BI</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          
+        </ul>
+      </div>
+    </section>
+    <section id="why-app" class="bg4">
+      <div class="container">
+        <h2>Why this Application</h2>
+        <p>
+          The reason consumers have resorted to electronic commerce applications is because it enables them to shop at any particular time and from any place they are. The product range on these platforms is unmatched, as it covers all the needs and preferences. They are able to search rapidly and buy quickly. Moreover, customised experiences and targeted recommendations increase customer satisfaction and involve in shopping through e-commerce application among modern buyers.</p>
+      </div>
+    </section>
+    <section id="contact" class="bg5">
+  <div class="container">
+    <h2>Contact Me</h2>
+    <form>
+      <div class="form-group">
+        <label for="userid">User ID:</label>
+        <input type="text" id="userid" name="userid" placeholder="Your User ID">
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your Email">
+      </div>
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Your Message"></textarea>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</section>
+  </div>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Your Name</p>
+    </div>
+  </footer>
 </body>
 </html>
