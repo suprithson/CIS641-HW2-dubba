@@ -79,16 +79,24 @@ ul li {
 
 #shopping-app {
   background-image: url('tamanna-rumee-FtJEat_S7Q4-unsplash.jpg'); /* Replace with the background image for "Shopping Application" section */
+  background-size: cover;
+  opacity: 0.9
 }
 
 #skills {
   background-image: url('mae-mu-7Cui0fxsMzQ-unsplash.jpg'); /* Replace with the background image for "Skills" section */
+  background-size: cover;
+  opacity: 0.9
 }
 #why-app {
   background-image: url('rae-tian-RVF0ngUujks-unsplash.jpg'); /* Replace with the background image for "Shopping Application" section */
+  background-size: cover;
+  opacity: 0.9
 }
 #contact {
   background-image: url('laura-chouette-pvICOT96zY8-unsplash.jpg'); /* Replace with the background image for "Contact Info" section */
+  background-size: cover;
+  opacity: 0.9
 }
 #contact .container {
   text-align: left;
